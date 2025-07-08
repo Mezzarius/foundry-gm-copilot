@@ -1,0 +1,14 @@
+<form>
+  <div class="copilot-container">
+    <label for="copilot-npc">NPC:</label>
+    <select id="copilot-npc">
+      {{#each actors}}
+        <option value="{{this.id}}">{{this.name}}</option>
+      {{/each}}
+    </select>
+    <textarea id="copilot-prompt" placeholder="What does the NPC say?"></textarea>
+    <button type="button" id="copilot-send">Ask</button>
+    <div id="copilot-response">Response will appear here.</div>
+    <button type="button" id="copilot-send-chat">Send to Chat</button>
+  </div>
+</form>
