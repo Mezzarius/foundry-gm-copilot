@@ -3,8 +3,10 @@ name: Module CI/CD
 on:
   release:
     types: [published]
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -44,7 +46,7 @@ jobs:
     # Create a release for this specific version
     - name: Create Release
       id: create_version_release
-      uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action@v1.13.0
       with:
         allowUpdates: true # set this to false if you want to prevent updating existing releases
         name: Release ${{ steps.get-version.outputs.version }}
