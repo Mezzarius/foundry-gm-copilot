@@ -59,7 +59,7 @@ jobs:
     # Update the 'latest' release
     - name: Create Release
       id: create_latest_release
-      uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action@v1.13.0
       if: endsWith(github.ref, 'main')
       with:
         allowUpdates: true
