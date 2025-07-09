@@ -14,8 +14,8 @@
 		"maximum": "13",
 		"verified": "12"
 	},
-	"esmodules": ["scripts/module.js"],
-	"styles": ["styles/module.css"],
+	"esmodules": ["scripts/copilot.js"],
+	"styles": ["styles/copilot.css"],
 	"scripts": [],
 	"languages": [
 	{
