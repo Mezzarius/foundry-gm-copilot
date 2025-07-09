@@ -49,7 +49,7 @@ jobs:
         name: Release ${{ steps.get-version.outputs.version }}
         draft: false
         prerelease: false
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: './module.json,./module.zip'
         tag: ${{ steps.get-version.outputs.version }}
 
@@ -63,6 +63,6 @@ jobs:
         name: Latest
         draft: false
         prerelease: false
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: './module.json,./module.zip'
         tag: latest
