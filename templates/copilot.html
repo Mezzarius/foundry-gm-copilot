@@ -1,0 +1,14 @@
+<form>
+  <div class="copilot-container">
+    <label for="copilot-npc">{{localize "GM_COPILOT.NPCLabel"}}</label>
+    <select id="copilot-npc">
+      {{#each actors}}
+        <option value="{{this.id}}">{{this.name}}</option>
+      {{/each}}
+    </select>
+    <textarea id="copilot-prompt" placeholder="{{localize "GM_COPILOT.PromptPlaceholder"}}"></textarea>
+    <button type="button" id="copilot-send">{{localize "GM_COPILOT.AskButton"}}</button>
+    <div id="copilot-response">{{localize "GM_COPILOT.ResponsePlaceholder"}}</div>
+    <button type="button" id="copilot-send-chat">{{localize "GM_COPILOT.SendChat"}}</button>
+  </div>
+</form>

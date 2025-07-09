@@ -1,26 +1,31 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "0.0.1",
-  "minimumCoreVersion": "0.6.2",
-  "compatibleCoreVersion": "0.7.2",
-  "author": "Cody Swendrowski <cody@swendrowski.us>",
-  "dependencies": [
-
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
-  "languages": [
-  ],
-  "url": "https://github.com/cswendrowski/FoundryVTT-module",
-  "manifest": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/latest/module.json",
-  "download": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/0.0.1/module.zip"
+	"id": "foundrygm",
+	"title": "GM Copilot Chat",
+	"description": "Chat with your NPCs in-character using OpenAI.",
+	"version": "1.0.0",
+	"authors": [
+	{
+		"name": "Mezzarius",
+		"url": "https://mezzland.mezzland.net"
+	}
+	],
+	"compatibility": {
+		"minimum": "12",
+		"maximum": "13",
+		"verified": "12"
+	},
+	"esmodules": ["scripts/module.js"],
+	"styles": ["styles/module.css"],
+	"scripts": [],
+	"languages": [
+	{
+		"lang": "en",
+		"name": "English",
+		"path": "lang/en.json",
+		"flags": {}
+	}
+	],
+	"url": "https://github.com/Mezzarius/foundry-gm-copilot",
+	"manifest": "https://github.com/Mezzarius/foundry-gm-copilot/module.json",
+	"download": "https://github.com/Mezzarius/foundry-gm-copilot/module.zip"
 }

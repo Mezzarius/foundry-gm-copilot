@@ -1,0 +1,11 @@
+{
+  "GM_COPILOT.Title": "GM Copilot",
+  "GM_COPILOT.Description": "Chat with NPCs in-character using OpenAI.",
+  "GM_COPILOT.NPCLabel": "NPC:",
+  "GM_COPILOT.PromptPlaceholder": "What does the NPC say?",
+  "GM_COPILOT.AskButton": "Ask",
+  "GM_COPILOT.ResponsePlaceholder": "Response will appear here.",
+  "GM_COPILOT.SendChat": "Send to Chat",
+  "GM_COPILOT.APIKey": "OpenAI API Key",
+  "GM_COPILOT.APIKeyHint": "Your OpenAI API key used to generate NPC responses."
+}
